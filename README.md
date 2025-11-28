@@ -59,38 +59,32 @@ project/
 
 ## 📌 Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/bank-app-automation.git
 cd bank-app-automation
-Create a virtual environment (optional but recommended):
 
-bash
+2. Create a virtual environment (optional but recommended):
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-Install dependencies:
 
-bash
+3. Install dependencies
 pip install -r requirements.txt
 playwright install
-🚀 Running Tests
+
+4. Running Dependencies
 Run all tests:
-
-bash
 pytest
+
 Run a specific test:
-
-bash
 pytest tests/test_login.py
-📂 Test Data
-All test data is stored in utils/testdata.py. Example structure:
 
-python
-Copy code
+5. TestData
+All test data is stored in utils/testdata.py. Example structure:
 {
     "valid_user": {
         "username": "admin",
