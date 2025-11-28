@@ -16,6 +16,7 @@ Automated web and API testing framework for a **demo banking application** using
 ---
 
 ## 📁 Project Structure
+
 project/
 ├── pages/
 │ ├── base_page.py
@@ -33,6 +34,9 @@ project/
 │ └── testdata.py
 ├── conftest.py
 └── requirements.txt
+
+yaml
+Copy code
 
 ---
 
@@ -59,35 +63,41 @@ project/
 ## 📌 Installation
 
 1. Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/bank-app-automation.git
 cd bank-app-automation
 Create a virtual environment (optional but recommended):
 
+bash
+Copy code
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
+Install dependencies:
 
-
-2. Install dependencies:
-
+bash
+Copy code
 pip install -r requirements.txt
 playwright install
-
-
-#🚀 Running Tests
-
+🚀 Running Tests
 Run all tests:
+
+bash
+Copy code
 pytest
-
 Run a specific test:
+
+bash
+Copy code
 pytest tests/test_login.py
-
 📂 Test Data
-
 All test data is stored in utils/testdata.py. Example structure:
 
+python
+Copy code
 {
     "valid_user": {
         "username": "admin",
@@ -99,4 +109,3 @@ All test data is stored in utils/testdata.py. Example structure:
         "remark": "Test Transfer"
     }
 }
-
