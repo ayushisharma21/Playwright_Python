@@ -1,5 +1,5 @@
 # Playwright_Python
-#**Bank App Automation Framework
+**Bank App Automation Framework
 **
 Automated web and API testing framework for a demo banking application using Python, Playwright, and Pytest.
 
