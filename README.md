@@ -35,9 +35,6 @@ project/
 ├── conftest.py
 └── requirements.txt
 
-yaml
-Copy code
-
 ---
 
 ## ⚡ Features
@@ -70,7 +67,6 @@ cd bank-app-automation
 Create a virtual environment (optional but recommended):
 
 bash
-Copy code
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
@@ -79,19 +75,16 @@ venv\Scripts\activate
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 playwright install
 🚀 Running Tests
 Run all tests:
 
 bash
-Copy code
 pytest
 Run a specific test:
 
 bash
-Copy code
 pytest tests/test_login.py
 📂 Test Data
 All test data is stored in utils/testdata.py. Example structure:
