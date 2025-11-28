@@ -15,7 +15,6 @@ Automated web and API testing framework for a **demo banking application** using
 
 ---
 
----
 ## 📁 Project Structure
 project/
 ├── pages/
@@ -68,24 +67,23 @@ python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
-venv\Scripts\activate```
+venv\Scripts\activate
 
 
 2. Install dependencies:
 
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 playwright install
-```
+
 
 #🚀 Running Tests
-
+```bash
 Run all tests:
-
 pytest
 
-
+```bash
 Run a specific test:
-
 pytest tests/test_login.py
 
 📂 Test Data
